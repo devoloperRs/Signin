@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+	width: 100%;
+    margin: 0;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    max-width: 500px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    color: #333;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #462873;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+	margin-top: 80px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2b144d;
+	transition: 0.5s; 
+}
+#select1{
+	width: 20px;
+	background-color: red;
+}
+#blood_group{
+	width: 90px;
+	padding: 5px 10px;
+	justify-content: center;
+	align-content: center;
+	border-radius: 30px;
+	
+}
+
+#address{
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+/*----------------------------------*/
+
+/*
+#on-alert{
+	width: 100%;
+	height: 100%;
+	background-color:rgba(10,10,10,0.3);
+	display: none;
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+}
+*/
+
+ /* Error box settings */
+/*
+.error-box {
+	background-color: #462873;  Dark purple box color 
+	color: white;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+	text-align: center;
+	max-width: 400px;
+	width: 100%;
+}
+
+.error-box h2 {
+	margin-top: 0;
+	font-size: 24px;
+	color:#fff; 
+}
+
+.error-box p {
+	font-size: 18px;
+	margin: 15px 0;
+}
+
+.error-box button {
+	background-color: #fff;
+	border: none;
+	padding: 10px 20px;
+	color: #2b144d;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+}
+*/
+
+/*
+.error-box button:hover {
+	background-color: #fff;
+
+}*/
